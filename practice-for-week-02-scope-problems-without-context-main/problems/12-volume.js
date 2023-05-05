@@ -24,8 +24,8 @@ console.log(table2(75)); // STILL prints 6
 
 ***********************************************************************/
 function recVolume(height) {
-  length = null;
-  width = null;
+  let length = null;
+  let width = null;
   let volume = height;
 
   return function getSides(num) {
